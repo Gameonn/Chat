@@ -1,0 +1,159 @@
+*
+{
+	margin:0;
+	padding:0;
+	font-family: 'Open Sans', sans-serif;
+	list-style: none;
+	color: #000000;
+}
+
+*,
+*:after,
+*:before
+{
+    box-sizing: border-box;
+}
+
+body
+{
+	background-color: #efefef;
+}
+
+.page
+{
+	display: block;
+	margin: 20px auto;
+	padding: 20px;
+	border-radius: 5px;
+	border: 1px solid #DBDBDB;
+	background-color: #ffffff;
+}
+
+.resp
+{
+	width: 600px;
+}
+
+#LoginDiv, #SignUpDiv, #ChatBig
+{
+	display: block;
+	text-align: center;
+}
+
+h2
+{
+	margin-bottom: 20px;
+}
+
+form
+{
+	margin: 20px 0;
+}
+
+input
+{
+	display: block;
+	margin: 10px auto;
+}
+
+#login, #signup
+{
+	padding: 5px 10px;
+	cursor: pointer;
+	border: 0;
+	color: #ffffff;
+}
+
+#login {
+	background-color: #34AB35;
+}
+
+#signup {
+	background-color: #3479AB;
+}
+
+.goto {
+	font-style: italic;
+	font-size: small;
+}
+
+.success
+{
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	padding: 10px;
+	background-color: #dff0d8;
+	border: 1px solid #d6e9c6;
+	border-radius: 5px;
+	color: #3c763d;
+	font-weight: bold;
+}
+
+.error
+{
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	padding: 10px;
+	background-color: #f2dede;
+	border: 1px solid #ebccd1;
+	border-radius: 5px;
+	color: #a94442;
+	font-weight: bold;
+}
+
+#disconnect
+{
+	color: #ffffff;
+	background-color: #DD6262;
+	padding: 5px 0;
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	width: 100px;
+	margin: 0 auto;
+}
+
+textarea
+{
+	width: 100%;
+	min-height: 100px;
+	margin: 20px 0;
+}
+
+.UserNameChat
+{
+	text-align: left;
+}
+
+.ChatTextMsg
+{
+	text-align: left;
+	text-indent: 10px;
+	margin-bottom: 10px;
+}
+
+#ChatMessages
+{
+	display: block;
+	overflow: auto;
+	height: 400px;
+}
+
+.online, .offline
+{
+	border-radius: 50%;
+	float: left;
+	margin: 10px;
+	width: 5px;
+	height: 5px; 
+}
+
+.online {
+	background-color: #59DD59;
+}
+
+.offline {
+	background-color: #E44D4D;
+}
